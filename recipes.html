@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <style>
+        .recipes{
+            margin-top: 3em;
+        }
+        .footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media(max-width: 992px){
+            .recipe-list{
+                display: none;
+            }
+        }
+    </style>
+    <title>Recipes</title>
+</head>
+<body>
+    <main class="main-container">
+        <header>
+            <nav class="navbar">
+                <div class="nav-list">
+                    <a href="index.html" id="go"><img src="assets/logo.svg" alt="logo"></a><div class="hamburger"><i class="bi bi-list ham"></i></div>
+                    <ul>
+                        <li class="nav-list-items"><a href="index.html">Home</a></li>
+                        <li class="nav-list-items"><a href="about.html">About</a></li>
+                        <li class="nav-list-items"><a href="tags.html">Tags</a></li>
+                        <li class="nav-list-items"><a href="recipes.html">Recipes</a></li>
+                    </ul>
+                </div>
+                <a href="contact.html"><button class="nav-button">Contact</button></a>
+            </nav>
+        </header>
+        <section class="recipes">
+            <div class="recipe-list">
+                <h3>Recipes</h3>
+                <ul>
+                    <li class="recipe-list-tag"><a href="tag-template.html">Salad (1)</a></li>
+                    <li class="recipe-list-tag"><a href="tag-template.html">Breakfast (2)</a></li>
+                    <li class="recipe-list-tag"><a href="tag-template.html">Carrots (3)</a></li>
+                    <li class="recipe-list-tag"><a href="tag-template.html">Food (4)</a></li>
+                </ul>
+            </div>
+            <div class="recipe">
+                <a href="single-recipe.html">
+                    <img src="assets/recipes/recipe-1.jpg" alt="food">
+                    <figcaption>
+                        <h3 class="title">Tangy Cereal</h3>
+                        <p class="time">Prep : 15min.| Cook : 5min</p>
+                    </figcaption>
+                </a>
+                <a href="single-recipe.html">
+                    <img src="assets/recipes/recipe-2.jpg" alt="food">
+                    <figcaption>
+                        <h3 class="title">Vegetable Salad</h3>
+                        <p class="time">Prep : 15min.| Cook : 5min</p>
+                    </figcaption>
+                </a>
+                <a href="single-recipe.html">
+                    <img src="assets/recipes/recipe-3.jpeg" alt="food">
+                    <figcaption>
+                        <h3 class="title">Vegitable Soup</h3>
+                        <p class="time">Prep : 15min.| Cook : 5min</p>
+                    </figcaption>
+                </a>
+                <a href="single-recipe.html">
+                    <img src="assets/recipes/recipe-4.jpeg" alt="food">
+                    <figcaption>
+                        <h3 class="title">Banana Pancakes</h3>
+                        <p class="time">Prep : 15min.| Cook : 5min</p>
+                    </figcaption>
+                </a>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <p>&copy; 2021 Basant Singh</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

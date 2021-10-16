@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .text-container p{
+            line-height: 1.8;
+        }
+        .text-container h2{
+            font-size: 2em;
+        }
+    </style>
+    <title>Contact</title>
+</head>
+<body>
+    <main class="main-container">
+        <header>
+            <nav class="navbar">
+                <div class="nav-list">
+                    <a href="index.html" id="go"><img src="assets/logo.svg" alt="logo"></a><div class="hamburger"><i class="bi bi-list ham"></i></div>
+                    <ul>
+                        <li class="nav-list-items"><a href="index.html">Home</a></li>
+                        <li class="nav-list-items"><a href="about.html">About</a></li>
+                        <li class="nav-list-items"><a href="tags.html">Tags</a></li>
+                        <li class="nav-list-items"><a href="recipes.html">Recipes</a></li>
+                    </ul>
+                </div>
+                <a href="contact.html"><button class="nav-button">Contact</button></a>
+            </nav>
+        </header>
+        <div class="contact-container">
+            <div class="text-container">
+                <h2>Want To Get In Touch?</h2>
+                <p>Four dollar toast biodiesel plaid salvia actually pickled banjo bespoke mlkshk intelligentsia edison bulb synth.</p>
+                <p>Cardigan prism bicycle rights put a bird on it deep v.</p>
+                <p>Hashtag swag health goth air plant, raclette listicle fingerstache cold-pressed fanny pack bicycle rights cardigan poke.</p>
+            </div>
+            <form action="#">
+                <label for="name">Your Name</label>
+                <input type="text" id="name">
+
+                <label for="mail">Your Email</label>
+                <input type="text" id="name">
+
+                <label for="message">Message</label>
+                <textarea name="" id="message" cols="30" rows="7"></textarea>
+
+                <button type="submit" class="nav-button">Submit</button>
+            </form>
+        </div>
+        <h2 class="h-center about-h2">Look At This Awesomesouce!</h2>
+        <div class="recipe">
+            
+            <a href="single-recipe.html">
+                <img src="assets/recipes/recipe-2.jpg" alt="food">
+                <figcaption>
+                    <h3 class="title">Vegetable Salad</h3>
+                    <p class="time">Prep : 15min.| Cook : 5min</p>
+                </figcaption>
+            </a>
+            <a href="single-recipe.html">
+                <img src="assets/recipes/recipe-3.jpeg" alt="food">
+                <figcaption>
+                    <h3 class="title">Vegitable Soup</h3>
+                    <p class="time">Prep : 15min.| Cook : 5min</p>
+                </figcaption>
+            </a>
+            <a href="single-recipe.html">
+                <img src="assets/recipes/recipe-4.jpeg" alt="food">
+                <figcaption>
+                    <h3 class="title">Banana Pancakes</h3>
+                    <p class="time">Prep : 15min.| Cook : 5min</p>
+                </figcaption>
+            </a>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2021 Basant Singh</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
